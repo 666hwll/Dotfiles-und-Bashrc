@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>Terminal</icon>
+	<name>Im Terminal öffnen</name>
+	<submenu></submenu>
+	<unique-id>1698066739415469-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Terminal im gewähltem Ordner öffnen</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>folder</icon>
+	<name>Als Systemverwalter öffnen</name>
+	<submenu></submenu>
+	<unique-id>1698066739415620-2</unique-id>
+	<command>pkexec thunar %F</command>
+	<description>Ordner mit Administratorrechten öffnen</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>emblem-symbolic-link</icon>
+	<name>Verknüpfung anlegen</name>
+	<submenu></submenu>
+	<unique-id>1698066739415776-3</unique-id>
+	<command>ln -s %f  &apos;Link to %n&apos;</command>
+	<description>Eine symbolische Verknüpfung für jedes gewählte Objekt anlegen</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+</action>
+<action>
+	<icon>gnome-run</icon>
+	<name>Check SHA256</name>
+	<submenu></submenu>
+	<unique-id>1698066739415795-4</unique-id>
+	<command>mint-sha256sum %f</command>
+	<description>Computes SHA256 checksum for the selected file.</description>
+	<range></range>
+	<patterns>*.iso;*.ISO</patterns>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>gtk-find</icon>
+	<name>Suchen</name>
+	<submenu></submenu>
+	<unique-id>1698066739415965-5</unique-id>
+	<command>catfish %f</command>
+	<description>Nach Dateien suchen</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+</actions>
