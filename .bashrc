@@ -73,7 +73,6 @@ alias l='ls -a -l -h'
 alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt dist-upgrade -y'
 alias python='python3'
 alias passgen='apg -a 1 -m 8 -x 16 -n 3'
-#alias deb='mkdir debianrel && cd debianrel && mkdir DEBIAN && mkdir usr && cd DEBIAN && touch control && cd .. && cd usr && mkdir bin && mkdir share && cd share && mkdir applications && cd applications && touch package.desktop'
 function mkcd() {
 	mkdir $1
 	cd $1
