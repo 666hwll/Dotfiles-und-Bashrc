@@ -1,0 +1,12 @@
+syntax on
+set number
+set relativenumber
+set mouse=a
+set linebreak
+set showmode
+set lazyredraw
+set cursorline
+set cmdheight=2
+set autoindent
+set autoread
+set autowrite
