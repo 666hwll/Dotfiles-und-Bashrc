@@ -86,6 +86,11 @@ function replace() {
 	sed -i "s/${SEARCH}/${REPLACEMENT}/g" $3
 }
 
+function apt-history(){
+
+    zcat -qf /var/log/apt/history.log* | grep -Po '^Commandline: apt install (?!.*--reinstall)\K.*'
+}
+
 function gpt() {
 	BEST="$1"
 	MODEL=""
