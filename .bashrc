@@ -72,6 +72,7 @@ alias l='ls -a -l -h'
 ## ALIAS DEFINITIONS
 alias copy='wl-copy'
 alias paste='wl-paste'
+alias xo='xdg-open'
 alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt dist-upgrade -y'
 alias python='python3'
 alias passgen='apg -a 1 -m 8 -x 16 -n 3'
