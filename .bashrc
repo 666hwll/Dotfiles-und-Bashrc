@@ -92,7 +92,7 @@ function gpt() {
 	if [[ "$BEST" -eq 1 ]]; then
 		MODEL="mistral:7b"
 	else
-		MODEL="gemma:2b"
+		MODEL="gemma2:2b"
 	fi
 	ollama run ${MODEL} 
 }
