@@ -70,6 +70,7 @@ export HOSTNAME=$HOSTNAME
 alias l='ls -a -l -h'
 
 ## ALIAS DEFINITIONS
+alias neofetch='fastfetch'
 alias copy='wl-copy'
 alias paste='wl-paste'
 alias xo='xdg-open'
