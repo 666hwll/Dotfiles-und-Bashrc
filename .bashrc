@@ -77,7 +77,6 @@ alias xo='xdg-open'
 alias update='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt dist-upgrade -y'
 alias python='python3'
 alias lsdev='lsblk'
-alias testdev='sudo hdparm -t --direct /dev/nvme0n1'
 alias passgen='apg -a 1 -m 8 -x 16 -n 3'
 function mkcd() {
 	mkdir $1
@@ -85,7 +84,7 @@ function mkcd() {
 }
 
 function testdev() {
-	sudo hdparm -t --direct /dev/$1
+	sudo hdparm -t --direct $1
 }
 
 function replace() {
