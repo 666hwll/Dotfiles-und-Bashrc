@@ -66,11 +66,12 @@ fi
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 export HOSTNAME=$HOSTNAME
+export MANPAGER='nvim +Man!'
 ## ls ALIASES
 alias l='ls -a -l -h'
 
 ## ALIAS DEFINITIONS
-alias neofetch='fastfetch'
+alias vim='nvim'
 alias copy='wl-copy'
 alias paste='wl-paste'
 alias xo='xdg-open'
