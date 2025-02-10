@@ -72,6 +72,7 @@ alias l='ls -a -l -h'
 
 ## ALIAS DEFINITIONS
 alias vim='nvim'
+alias rm='shred -u'
 alias copy='wl-copy'
 alias paste='wl-paste'
 alias xo='xdg-open'
