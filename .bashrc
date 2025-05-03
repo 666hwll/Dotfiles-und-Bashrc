@@ -72,7 +72,6 @@ alias l='ls -a -l -h'
 
 ## ALIAS DEFINITIONS
 alias vim='nvim'
-alias rm='shred -u'
 alias copy='wl-copy'
 alias paste='wl-paste'
 alias xo='xdg-open'
@@ -128,4 +127,4 @@ if ! shopt -oq posix; then
   fi
 fi
 ## PROFILE
-PS1="\$\e[31m\u \e[34m\h \e[32m\w\e[0m >> "
+PS1="\$\e[31m\u \e[34m\h \e[32m\w\e[0m🚀>> "
